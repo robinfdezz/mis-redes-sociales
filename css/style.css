@@ -1,0 +1,405 @@
+@font-face {
+    font-family: 'Fuente-gruesa';
+    src: url('../recursos/Fuente-De-Letras/IDroid-Bold.otf');
+    /* Reemplaza 'ruta/fuente.ttf' con la ruta correcta de tu fuente */
+}
+
+@font-face {
+    font-family: 'Fuente-gruesa-2';
+    src: url('../recursos/Fuente-De-Letras/Mandatory-Plaything.otf');
+    /* Reemplaza 'ruta/fuente.ttf' con la ruta correcta de tu fuente */
+}
+
+@font-face {
+    font-family: 'BERMONT';
+    src: url('../recursos/Fuente-De-Letras/BERMONT.otf');
+    /* Reemplaza 'ruta/fuente.ttf' con la ruta correcta de tu fuente */
+}
+
+body {
+    background: #1c1c1c;
+    padding: 0;
+    margin: 0;
+}
+
+/*? Inicio de la cabecera */
+.cabecera-portafolio--img--fondo {
+    width: 700px;
+    position: absolute;
+    top: -200px;
+    right: 13px;
+    opacity: 0.04;
+    z-index: -1;
+}
+
+.cabecera-portafolio {
+    position: relative;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cabecera-portafolio--img {
+    transition: 0.5s;
+    opacity: 0.8;
+    width: 200px;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.cabecera-portafolio--img:hover {
+    transition: 0.5s;
+    opacity: 1;
+    transform: scale(1.03);
+    width: 200px;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    -webkit-transform: scale(1.03);
+    -moz-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    -o-transform: scale(1.03);
+}
+
+.cabecera-portafolio--h1 a {
+    opacity: 0.8;
+    transition: 0.5s;
+    color: rgb(255, 255, 255);
+    padding: 0;
+    margin: 20px;
+    font-family: Fuente-gruesa;
+    letter-spacing: 0.5rem;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.cabecera-portafolio--h1 a:hover {
+    opacity: 1;
+    transition: 0.5s;
+    letter-spacing: 0.7rem;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    background: linear-gradient(to right, #c90e0e, #fd1d1d, #fcb045);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
+
+/*? Final de la cabecera */
+
+/** Inicio cuerpo redes */
+.section-redes {
+    margin-bottom: 20px;
+}
+
+.redes-sociales {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.redes-sociales-links {
+    border-radius: 28px;
+    width: 70%;
+    margin-bottom: 20px;
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    -ms-border-radius: 28px;
+    -o-border-radius: 28px;
+}
+
+.redes-sociales-instagram,
+.redes-sociales-whatsapp,
+.redes-sociales-portafolio,
+.redes-sociales-linkedin {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(225deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.redes-sociales-links:hover h2 {
+    letter-spacing: 0.1rem;
+}
+
+
+.redes-sociales-portafolio:hover {
+    transform: scale(1.05);
+    background: rgb(17, 117, 175);
+    background: linear-gradient(77deg, rgba(17, 117, 175, 1) 0%, rgba(160, 224, 245, 1) 100%);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+
+.redes-sociales-instagram:hover {
+    transition: 0.5s;
+    transform: scale(1.05);
+    background: rgb(131, 58, 180);
+    background: linear-gradient(223deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.redes-sociales-whatsapp:hover {
+    transform: scale(1.05);
+    background: rgb(170, 195, 34);
+    background: linear-gradient(225deg, rgba(170, 195, 34, 1) 0%, rgba(69, 253, 45, 1) 100%);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+
+
+.redes-sociales-linkedin:hover {
+    transform: scale(1.05);
+    background: rgb(2, 0, 36);
+    background: linear-gradient(147deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+
+.redes-sociales-links:hover .redes-sociales-icon {
+    transition: 0.5s;
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.redes-sociales-icon {
+    transition: 0.5s;
+    filter: invert(10%);
+    width: 15%;
+    margin: 10px 0px 5px 0;
+    -webkit-filter: invert(10%);
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.redes-sociales-h2 {
+    margin: 0px 0px 10px 0;
+    font-size: 1.7rem;
+    color: #1c1c1c;
+    font-family: BERMONT;
+    letter-spacing: 0rem;
+}
+
+.redes-sociales-links:hover .redes-sociales-h2 {
+    transition: 0.5s;
+    color: rgb(255, 255, 255);
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.redes-sociales--links-directos {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+}
+
+/** Fin cuerpo redes */
+
+/*? Pie de pagina */
+footer {
+    padding: 20px 0;
+    background-color: #1c1c1c;
+    display: flex;
+    justify-content: center;
+}
+
+footer p {
+    color: rgb(255, 255, 255);
+    font-family: Fuente-gruesa;
+    font-size: 0.7rem;
+    letter-spacing: 0.8em;
+    text-align: center;
+    opacity: 0.8;
+}
+
+/*? Fin de pagina */
+
+
+
+
+/* Consulta de medios para tablets */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    /*! Inicio de la cabecera */
+    .cabecera-portafolio--img--fondo {
+        width: 1000px;
+        top: -300px;
+        right: 300px;
+    }
+
+    .cabecera-portafolio--img {
+        width: 250px;
+    }
+
+    .cabecera-portafolio--img:hover {
+        width: 250px;
+    }
+
+    .cabecera-portafolio--h1 {
+        font-size: 3rem;
+    }
+
+    /*! Final de la cabecera */
+
+    /*! Inicio cuerpo redes */
+    .redes-sociales-links {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+    .redes-sociales-links:hover h2 {
+        letter-spacing: 0.3rem;
+    }
+
+    .redes-sociales-links:hover .redes-sociales-icon {
+        width: 17%;
+    }
+
+    /** Fin cuerpo redes */
+
+    /*! Pie de pagina */
+    footer p {
+        font-size: 0.9rem;
+        letter-spacing: 1rem;
+    }
+
+    /*! Fin de pagina */
+}
+
+
+/* Consulta de medios para computadoras */
+@media screen and (min-width: 1024px) {
+
+    /*! Inicio de la cabecera */
+    .cabecera-portafolio--img--fondo {
+        width: 1000px;
+        top: -350px;
+        right: 600px;
+        opacity: 0.02;
+    }
+
+    .cabecera-portafolio {
+        margin-top: 0;
+        padding-top: 10px;
+    }
+
+    .cabecera-portafolio--img {
+        width: 300px;
+    }
+
+    .cabecera-portafolio--img:hover {
+        width: 300px;
+    }
+
+    .cabecera-portafolio--h1 a {
+        margin: 0px;
+        font-family: Fuente-gruesa;
+        font-size: 2.5rem;
+        letter-spacing: 1.5rem;
+    }
+
+    .cabecera-portafolio--h1 a:hover {
+        letter-spacing: 1.8rem;
+        transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -o-transform: scale(1.1);
+    }
+
+    /*! Final de la cabecera */
+
+    /*! Inicio cuerpo redes */
+    .section-redes {
+        margin-bottom: 0;
+    }
+
+    .redes-sociales-links {
+        width: 40%;
+        margin-bottom: 40px;
+        justify-content: none;
+    }
+
+    .redes-sociales-links:hover h2 {
+        letter-spacing: 0.2rem;
+    }
+
+    .redes-sociales-icon {
+        width: 10%;
+        margin: 0px 0px 0px 0px;
+        padding: 0 0 0 60px;
+    }
+
+    .redes-sociales-h2 {
+        margin: 0px 0px 0px 0;
+        font-size: 2.5rem;
+        letter-spacing: 0.2rem;
+        padding: 0 0 0 40px;
+    }
+
+
+    .redes-sociales {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .redes-sociales--links-directos {
+        flex-direction: row;
+        text-decoration: none;
+        justify-content: flex-start;
+        margin: 20px 0;
+    }
+
+    /*! Fin cuerpo redes */
+
+    /*! Pie de pagina */
+    footer {
+        padding: 60px 0 20px 0;
+    }
+
+    footer p {
+        font-size: 0.8rem;
+        letter-spacing: 1rem;
+        opacity: 0.6;
+    }
+
+    /*! Fin de pagina */
+}
