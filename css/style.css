@@ -126,7 +126,9 @@ body {
 .redes-sociales-instagram,
 .redes-sociales-whatsapp,
 .redes-sociales-portafolio,
-.redes-sociales-linkedin {
+.redes-sociales-linkedin,
+.redes-sociales-tiktok,
+.redes-sociales-threads{
     background: rgb(255, 255, 255);
     background: linear-gradient(225deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 100%);
     transition: 0.5s;
@@ -152,7 +154,6 @@ body {
 }
 
 .redes-sociales-instagram:hover {
-    transition: 0.5s;
     transform: scale(1.05);
     background: rgb(131, 58, 180);
     background: linear-gradient(223deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
@@ -160,10 +161,6 @@ body {
     -moz-transform: scale(1.05);
     -ms-transform: scale(1.05);
     -o-transform: scale(1.05);
-    -webkit-transition: 0.5s;
-    -moz-transition: 0.5s;
-    -ms-transition: 0.5s;
-    -o-transition: 0.5s;
 }
 
 .redes-sociales-whatsapp:hover {
@@ -187,14 +184,34 @@ body {
     -o-transform: scale(1.05);
 }
 
+.redes-sociales-tiktok:hover{
+    transform: scale(1.05);
+    background: rgb(0,146,227);
+    background: linear-gradient(151deg, rgba(0,146,227,1) 0%, rgba(10,0,83,1) 43%, rgba(212,0,143,1) 100%);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+
+.redes-sociales-threads:hover{
+    background: rgb(0,0,0);
+    background: linear-gradient(232deg, rgba(0,0,0,1) 0%, rgba(33,33,33,1) 52%, rgba(11,0,8,1) 100%);
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+
 .redes-sociales-links:hover .redes-sociales-icon {
-    transition: 0.5s;
+    transition: 0.2s;
     filter: invert(100%);
     -webkit-filter: invert(100%);
-    -webkit-transition: 0.5s;
-    -moz-transition: 0.5s;
-    -ms-transition: 0.5s;
-    -o-transition: 0.5s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
 }
 
 .redes-sociales-icon {
@@ -210,20 +227,25 @@ body {
 }
 
 .redes-sociales-h2 {
+    transition: 0.5s;
     margin: 0px 0px 10px 0;
     font-size: 1.7rem;
     color: #1c1c1c;
     font-family: BERMONT;
     letter-spacing: 0rem;
-}
-
-.redes-sociales-links:hover .redes-sociales-h2 {
-    transition: 0.5s;
-    color: rgb(255, 255, 255);
     -webkit-transition: 0.5s;
     -moz-transition: 0.5s;
     -ms-transition: 0.5s;
     -o-transition: 0.5s;
+}
+
+.redes-sociales-links:hover .redes-sociales-h2 {
+    transition: 0.2s;
+    color: rgb(255, 255, 255);
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
 }
 
 .redes-sociales--links-directos {
